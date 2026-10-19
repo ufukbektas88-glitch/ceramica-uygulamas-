@@ -9,7 +9,8 @@ Bu depo 19 Ekim 2026 tarihinde boş depodan yeniden oluşturuldu. Bu sürüm ça
 - SQL migration, seed, Docker PostgreSQL/Redis, tekrar çalıştırılabilir kurulum, CI tanımı, yerel yedek/restore betikleri, kurulum ve yönetici belgeleri.
 
 ## Kısmi / doğrulanmamış
-- Flutter mobil kaynakları: katalog, hesaplama, oturum ve sipariş listesi. SDK yok; analyze/widget/native build çalıştırılmadı. Android/iOS platform kabukları, mobil sipariş oluşturma ve imzalama henüz hazır değil.
+- Flutter 3.44.0 kaynakları ve Android/iOS platformları mevcut. Android sunucusuz demo APK derlendi; analiz ve 7 test geçti. Demo anahtarıyla imzalıdır; gerçek cihaz kurulumu ve mağaza imzası doğrulanmadı. iOS native derlemesi/Apple dağıtımı yok. Mobil sipariş oluşturma henüz yok.
+- iPhone/Android için ayrı statik web demosu apps/phone-demo altında. Mobil tarayıcıda katalog, filtre, metraj ve çevrimdışı yeniden açılma doğrulandı. HTTPS barındırma etkinleştirilmeden yayında sayılmaz.
 - Stok: parti/ton/kalibre alanları mevcut. Çok depolu/partili bölme, stok düzeltme/transfer UI'sı, barkod ve minimum stok uyarısı yok.
 - Sipariş: çekirdek 6 durum mevcut. 12 aşamalı tedarik/ödeme akışı, iade ve kısmi sevkiyat yok.
 - Kimlik: 5 rol mevcut. Tam 9 rol matrisi, kullanıcı yönetim UI'sı, firma hiyerarşisi, MFA, şifre sıfırlama ve güvenlik denetimi yok.
@@ -23,7 +24,7 @@ Bu depo 19 Ekim 2026 tarihinde boş depodan yeniden oluşturuldu. Bu sürüm ça
 - Sevkiyat belge/araç/irsaliye, CRM, satın alma ve tedarik.
 - S3, BullMQ işçisi, zamanlanmış üretici senkronizasyonu, ERP ve e-fatura.
 - Push/e-posta/SMS, offline taslak, AI öneri ve oda görselleştirme.
-- APK/AAB/IPA, staging/production dağıtımı, yük/pentest, otomatik uzak yedekleme.
+- Üretim imzalı APK/AAB/IPA ve mağaza dağıtımı; staging/production ticari sunucu, yük/pentest ve otomatik uzak yedekleme.
 
 ## Kaynakların kalıcılığı
 Master prompt `docs/MASTER_PROMPT.md` olarak saklanır. Kaynak kodu Git'e kaydedilir; kaynak arşivi ayrıca teslim edilir. Gerçek uzak Git kaydı ve test sonuçları final raporda yalnızca başarılıysa bildirilir. Yayınlanan ortam, canlı sunucu ve GitHub commit birbirinden farklıdır.

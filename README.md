@@ -36,19 +36,12 @@ Entegrasyon testleri izole TEST kayıtları oluşturup siler; demo ürünlerini 
 ## Ürün aktarımı
 Yönetici girişi → Ürün aktarımı → üretici, yetkili dosya kaynağı, CSV veya XLSX → doğrula → önizlemeyi incele → kataloğa uygula. CSV sütunları [şablonda](templates/products.csv). Şablon demo verisidir. Excel ilk çalışma sayfasında aynı sütun adlarını kullanır; formüller reddedilir. Fiyatlar KDV hariçtir. Aktarım stok yaratmaz. Web görselleri telif belirsizliği nedeniyle kullanılmadı; renk ve malzeme kompozisyonları CSS ile çizildi.
 
-## Mobil
-`apps/mobile` Flutter kaynak projesidir. Flutter SDK bu ortamda kurulu değildir. Derleme ve widget testi **çalıştırılmadı**. Uygun makinede:
-```sh
-cd apps/mobile
-flutter create --platforms=android,ios --org com.ceramica .
-flutter pub get
-flutter analyze
-flutter test
-flutter run --dart-define=API_URL=https://YOUR_STAGING_HOST/api/v1
-flutter build apk --dart-define=API_URL=https://YOUR_STAGING_HOST/api/v1
-flutter build appbundle --dart-define=API_URL=https://YOUR_STAGING_HOST/api/v1
-```
-Üretilen platform dosyaları, cleartext debug izni, Android release imzası, iOS Keychain entitlement ve Apple signing ayrıca incelenmelidir. Yayında HTTPS zorunludur; iOS IPA/TestFlight macOS/Xcode ve Apple hesabı gerektirir.
+## Telefonlara kurulum
+Android/iPhone kurulum adımları: [PHONE_INSTALL.md](docs/PHONE_INSTALL.md).
+
+`apps/mobile` artık Flutter 3.44.0 Android/iOS platformlarını ve sunucusuz demo modunu içerir. Gerçek sunucu yokken örnek katalog ve metraj çalışır; ticari işlemler etkin değildir. `apps/phone-demo` ise statik HTTPS barındırmada iPhone/Android ana ekranına eklenebilen ve ilk yüklemeden sonra çevrimdışı çalışan web demosudur. Apple hesabı bu web demosu için gerekmez.
+
+GitHub Actions'ta **Build phone demo** elle başlatılarak APK ve statik web paketi üretilebilir. Apple native build ve TestFlight için macOS/Xcode ile Apple imzalama hesabı gerekir. Android deneme imzası Google Play üretim anahtarı değildir.
 
 ## Yedekleme ve kayıp önleme
 Kaynakları Git commit ve GitHub'a push ile saklayın. Ortam yayımlama GitHub kaydından ayrıdır. Docker veritabanı named volume kullanır; `docker compose down -v` veriyi siler.

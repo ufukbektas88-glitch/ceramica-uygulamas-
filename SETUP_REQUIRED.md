@@ -5,7 +5,7 @@
 - Ödeme kuruluşu seçimi, merchant hesabı, resmi sandbox ve webhook imza sırrı. Şu an kartla ödeme yok; kart verisi alınmaz.
 - S3 bucket, sınırlı yetkili erişim ve yaşam döngüsü kuralları.
 - Firebase projesi, FCM/APNs ve Apple geliştirici hesabı; Android imzalama anahtarı.
-- Flutter SDK / Android SDK; iOS için macOS ve Xcode.
+- Bu bulutta Flutter 3.44.0 / Android SDK ve JDK kuruldu. iOS native derlemesi için ayrıca macOS, Xcode ve Apple imzalama hesabı gerekir. Demo web uygulaması için Apple hesabı gerekmez.
 - ERP / e-fatura yetkili entegratör bilgileri.
 - KVKK, ileti izinleri, satış/iade sözleşmeleri ve mevzuat incelemesi.
 - Üretime geçmeden önce STATUS.md içindeki eksik modüller, yük/güvenlik testleri ve mobil derlemeler tamamlanmalı.

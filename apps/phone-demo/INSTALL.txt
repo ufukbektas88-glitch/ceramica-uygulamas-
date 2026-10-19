@@ -1,0 +1,6 @@
+CERAMICA - Sunucusuz telefon demosu
+
+Bu ZIP'i iPhone'a uygulama olarak kuramazsınız. İçeriğini HTTPS statik barındırmada yayımlayın (GitHub Pages veya Netlify Drop gibi). Siteyi Safari ile açın, Paylaş > Ana Ekrana Ekle yolunu izleyin.
+
+İlk açılış internet ister. Önbellek hazırlandıktan sonra demo katalog ve hesaplama çevrimdışı kullanılabilir.
+Bu paket örnek veriler içerir; gerçek sipariş, stok veya ödeme sistemi değildir.

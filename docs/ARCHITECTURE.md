@@ -9,7 +9,7 @@ Bu oturumdaki /workspace altındaki dosyalar, yerel Git referansları, reflog ve
 - PostgreSQL / Prisma: kalıcı veri, satır kilitleri, foreign key, benzersizlik, transaction ve audit log.
 - Prisma JS driver + pg adapter: native Rust motoru gerektirmeden sorgulama. İstemci eşlenmiş 6.19.0 generator/internals ile üretilir. Hiçbir checksum/TLS kontrolü kapatılmaz.
 - SQL migration runner: sıralı dosyalar, SHA-256 kontrolü, migration değişikliklerini reddetme, advisory lock ve transaction. `_CeramicaMigration` kullanır. **Bu projede `prisma migrate deploy` ile karıştırmayın.** Geçiş yapılacaksa baseline ayrı bir migration çalışmasıdır.
-- Flutter: katalog, sunucuda metraj, güvenli token depolama, giriş ve sipariş listeleme kaynakları. Native proje üretimi ve derleme henüz doğrulanmadı.
+- Flutter: sunucusuz demo katalog/metraj, HTTPS sunucu ayarı, güvenli token depolama, giriş ve sipariş listeleme. Android/iOS platformları oluşturuldu; Android demo APK derlemesi doğrulandı, iOS native derlemesi henüz yok. Statik iPhone web demosu ayrıca apps/phone-demo altında.
 - Redis: geliştirme servisi mevcut; BullMQ işçisi henüz yok. S3, ödeme, FCM/APNs, ERP ve AI entegrasyonu henüz yok.
 
 ## Ekran akışları

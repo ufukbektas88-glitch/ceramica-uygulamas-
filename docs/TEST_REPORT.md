@@ -1,4 +1,6 @@
-# Doğrulama — 19 Ekim 2026
+# Çekirdek doğrulaması — 19 Ekim 2026
+
+Telefon sürümü daha sonra doğrulandı; güncel mobil sonuçlar [PHONE_TEST_REPORT.md](PHONE_TEST_REPORT.md) dosyasında.
 
 ## Başarılı
 - `npm run typecheck`: API ve web TypeScript kontrolü.
@@ -22,7 +24,7 @@ Prisma native motor indirmesi ağ tarafından reddedildi. Checksum doğrulaması
 Kurulum tekrarında açık Next dev sunucusunun `.next` derleme çıktılarıyla çakıştığı görüldü. Dev çıktısı `.next-dev` olarak ayrıldı; üretim çıktısı `.next` içinde kalır.
 
 ## Çalıştırılmayan / sınırlar
-- Flutter analyze, widget, Android APK/AAB ve iOS build: SDK/Apple ortamı yok. Kaynak kod var; mobil derleme doğrulandı denemez.
+- Bu ilk çekirdek kontrolü sırasında Flutter kontrolleri çalıştırılmamıştı. Sonraki Android/demo sonuçları PHONE_TEST_REPORT.md içindedir. iOS native, AAB ve mağaza yayını hâlâ doğrulanmadı.
 - Tarayıcı otomasyonuyla tıklama/erişilebilirlik ve görsel regresyon testi çalıştırılmadı; web HTTP/proxy ve derleme doğrulaması yapıldı.
 - Gerçek üretici, ödeme, ERP, SMS/push, yük ve sızma testleri yok.
 - CI dosyası eklendi; GitHub üzerinde çalıştığı bu raporda iddia edilmez.

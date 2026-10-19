@@ -1,5 +1,6 @@
-name: CERAMICA checks
-on: [push, pull_request]
+name: Legacy commerce checks
+on:
+  workflow_dispatch:
 jobs:
   core:
     runs-on: ubuntu-latest

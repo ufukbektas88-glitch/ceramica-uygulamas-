@@ -1,31 +1,58 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:ceramica/main.dart';
+import 'package:ceramica/screens.dart';
+import 'package:ceramica/catalog.dart';
 
 void main() {
-  testWidgets('showroom marka ve ürün araması görünür', (tester) async {
-    await tester.pumpWidget(const Ceramica());
+  setUp(() => SharedPreferences.setMockInitialValues({}));
+  testWidgets('açılışta CERAMICA showroom ve gerçek görseller vardır',
+      (tester) async {
+    final store = CatalogStore();
+    await tester.runAsync(store.load);
+    await tester.pumpWidget(Ceramica(store: store));
     await tester.pumpAndSettle();
     expect(find.text('CERAMICA'), findsOneWidget);
-    expect(find.byType(TextField), findsOneWidget);
-    expect(find.textContaining('SUNUCUSUZ DEMO'), findsOneWidget);
+    expect(find.text('Doğal dokular.\nZamansız mekânlar.'), findsOneWidget);
+    expect(find.byType(Photo), findsWidgets);
+    expect(find.text('Siparişler'), findsNothing);
+    expect(find.text('Oturum aç'), findsNothing);
   });
-  testWidgets('ürün detayından tam koli ve vergi hesabı yapılır',
+  testWidgets('katalog araması ve yerel favori akışı çalışır', (tester) async {
+    final store = CatalogStore();
+    await tester.runAsync(store.load);
+    await tester.pumpWidget(Ceramica(store: store));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byIcon(Icons.grid_view_outlined));
+    await tester.pumpAndSettle();
+    expect(find.byType(TextField), findsOneWidget);
+    final name = store.products.first.name;
+    await tester.enterText(find.byType(TextField), name);
+    await tester.pumpAndSettle();
+    expect(find.byType(CollectionCard), findsWidgets);
+    await tester.tap(find.byTooltip('Favorilere ekle').first);
+    await tester.pumpAndSettle();
+    expect(store.favorites, isNotEmpty);
+    await tester.tap(find.byIcon(Icons.favorite_border).last);
+    await tester.pumpAndSettle();
+    expect(find.text('Favorileriniz.'), findsOneWidget);
+    await tester.tap(find.byType(CollectionCard).first);
+    await tester.pumpAndSettle();
+    expect(find.byType(CollectionDetail), findsOneWidget);
+    expect(find.byTooltip('Favorilerden kaldır'), findsOneWidget);
+    await tester.pageBack();
+    await tester.pumpAndSettle();
+  });
+  testWidgets('ziyaret ekranında iletişim ve üç site bağlantısı vardır',
       (tester) async {
-    await tester.pumpWidget(const Ceramica());
+    final store = CatalogStore();
+    await tester.runAsync(store.load);
+    await tester.pumpWidget(Ceramica(store: store));
     await tester.pumpAndSettle();
-    await tester.scrollUntilVisible(find.byType(ProductCard).first, 200,
-        scrollable: find.byType(Scrollable).last);
-    await tester.tap(find.byType(ProductCard).first);
+    await tester.tap(find.byIcon(Icons.location_on_outlined));
     await tester.pumpAndSettle();
-    await tester.tap(find.text('Tam koli ve fiyatı hesapla'));
-    await tester.pumpAndSettle();
-    expect(find.text('Tam koli: 36'), findsOneWidget);
-    expect(find.text('Toplam: 31104.00 TL'), findsOneWidget);
-    await tester.enterText(find.byType(TextField).at(0), '4,32');
-    await tester.enterText(find.byType(TextField).at(1), '0');
-    await tester.tap(find.text('Tam koli ve fiyatı hesapla'));
-    await tester.pumpAndSettle();
-    expect(find.text('Tam koli: 3'), findsOneWidget);
+    expect(find.text('Birlikte keşfedelim.'), findsOneWidget);
+    expect(find.text('CERAMICA Küçükçekmece'), findsOneWidget);
   });
 }

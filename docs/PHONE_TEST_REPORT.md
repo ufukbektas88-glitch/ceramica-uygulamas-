@@ -1,3 +1,5 @@
+> Tarihsel belge. Güncel ürün kapsamı için [PRODUCT_SCOPE.md](../PRODUCT_SCOPE.md), kurulum için [SHOWROOM.md](../SHOWROOM.md) geçerlidir.
+
 # Telefon sürümü doğrulaması — 19 Ekim 2026
 
 - Flutter 3.44.0, Dart 3.12.0; Temurin JDK 21.0.12.1 ve Android SDK kuruldu. OCI SDK katmanları ve resmî JDK arşivi SHA-256 ile doğrulandı. Gradle 9.1.0 dağıtım checksum'u wrapper'da sabittir.

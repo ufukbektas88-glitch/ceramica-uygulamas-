@@ -1,3 +1,5 @@
+> Tarihsel belge. Güncel ürün kapsamı için [PRODUCT_SCOPE.md](../PRODUCT_SCOPE.md), kurulum için [SHOWROOM.md](../SHOWROOM.md) geçerlidir.
+
 # Telefonlara yükleme — sunucusuz demo
 
 Bu sürüm örnek katalog ve metraj hesabıdır. Gerçek sipariş, ödeme veya kullanıcı kaydı oluşturmaz. Ürün, fiyat ve stok bilgileri gerçek değildir.

@@ -1,4 +1,4 @@
-name: Build phone demo
+name: Build CERAMICA showroom
 on:
   workflow_dispatch:
 permissions:
@@ -17,7 +17,7 @@ jobs:
           flutter-version: '3.44.0'
           channel: stable
           cache: true
-      - name: Verify and build demo APK
+      - name: Verify and build catalog APK
         working-directory: apps/mobile
         run: |
           flutter pub get --enforce-lockfile
@@ -26,13 +26,19 @@ jobs:
           flutter build apk --release --target-platform android-arm64,android-arm --no-pub
       - uses: actions/upload-artifact@v4
         with:
-          name: CERAMICA-Android-demo
+          name: CERAMICA-Android-katalog
           path: apps/mobile/build/app/outputs/flutter-apk/app-release.apk
-      - name: Package iPhone web demo
+      - name: Build optional web catalog
+        working-directory: apps/mobile
+        run: flutter build web --release --no-web-resources-cdn --no-pub
+      - name: Package catalog artifacts
         run: |
-          cd apps/phone-demo
-          zip -r "$RUNNER_TEMP/CERAMICA-iPhone-web-demo.zip" .
+          CERAMICA_OUTPUT_DIR="$RUNNER_TEMP" python3 scripts/package-showroom.py
       - uses: actions/upload-artifact@v4
         with:
-          name: CERAMICA-iPhone-web-demo
-          path: ${{ runner.temp }}/CERAMICA-iPhone-web-demo.zip
+          name: CERAMICA-web-katalog
+          path: ${{ runner.temp }}/CERAMICA-web-katalog.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: CERAMICA-iOS-kaynak
+          path: ${{ runner.temp }}/CERAMICA-iOS-kaynak.zip

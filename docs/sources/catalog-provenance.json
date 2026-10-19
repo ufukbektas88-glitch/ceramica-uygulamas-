@@ -1,0 +1,1356 @@
+{
+  "retrievedAt": "2026-10-19",
+  "note": "Ürün metinleri ve görseller kaynaklarına aittir; kaynak erişimi lisans/dağıtım izni beyanı değildir.",
+  "assets": [
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-5679789674834981-b548d269.jpg",
+      "assetPath": "assets/images/6ac591e35a4f-0.webp",
+      "sha256": "d62247fcf12fdd22079bb954714c30e269060a4cbc7cfaae5923b37ab2957dff",
+      "bytes": 365097,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 787,
+      "bundledBytes": 223978
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-9446033945355311-b84d7f2a.jpg",
+      "assetPath": "assets/images/6ac591e35a4f-v0.webp",
+      "sha256": "045654ee05f36064db54ad32b16ca65e5751d22f54ca20a8080959d40b31b9a9",
+      "bytes": 89772,
+      "verifiedAt": "2026-10-19",
+      "width": 270,
+      "height": 1080,
+      "bundledBytes": 103928
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-7049134055369265-a2d03939.jpg",
+      "assetPath": "assets/images/6ac591e35a4f-v1.webp",
+      "sha256": "caace37d628f48699f3842addb0b7b8dc2ce66fb4c23e665a47d3161b063ed24",
+      "bytes": 64856,
+      "verifiedAt": "2026-10-19",
+      "width": 270,
+      "height": 1080,
+      "bundledBytes": 71564
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-43337941788011214-6ca123f6.jpg",
+      "assetPath": "assets/images/6ac591e35a4f-v2.webp",
+      "sha256": "d1156f1e5f054bc4ae5833f1404372659fd0328ff98ad76429ad18b7764d2df8",
+      "bytes": 59100,
+      "verifiedAt": "2026-10-19",
+      "width": 270,
+      "height": 1080,
+      "bundledBytes": 64420
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-1995221520835878-c1a1973e.jpg",
+      "assetPath": "assets/images/78aacca829c7-0.webp",
+      "sha256": "07ac77cd7712caae6ba4edac2049c20b288c61103878bfbd2e9eb5cea5a0e664",
+      "bytes": 188824,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 787,
+      "bundledBytes": 70142
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-29173022780301683-dea8d9df.jpg",
+      "assetPath": "assets/images/78aacca829c7-v0.webp",
+      "sha256": "8b1d9a738c9045ef1773d2386765eeaa9f07031d563629728153a970c3d1e3b5",
+      "bytes": 145346,
+      "verifiedAt": "2026-10-19",
+      "width": 540,
+      "height": 1080,
+      "bundledBytes": 177368
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-6319570140111678-0533da59.jpg",
+      "assetPath": "assets/images/78aacca829c7-v1.webp",
+      "sha256": "5d073bc933ca4a31d38336028d75c2b1fc5da5b7614d5fc0a3666b57b70f57dc",
+      "bytes": 11953,
+      "verifiedAt": "2026-10-19",
+      "width": 200,
+      "height": 400,
+      "bundledBytes": 10314
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-449078109895203-5f233a9f.jpg",
+      "assetPath": "assets/images/78aacca829c7-v2.webp",
+      "sha256": "afe690881c280044b98557b8c2d38ad27935bedf38f2750a5779d866e1fdaeb8",
+      "bytes": 154016,
+      "verifiedAt": "2026-10-19",
+      "width": 540,
+      "height": 1080,
+      "bundledBytes": 186988
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-8257549423303111-f37f21ea.jpg",
+      "assetPath": "assets/images/43cac824e238-0.webp",
+      "sha256": "2483441fed56c2de362d71c2e7e750baf80ac74f518d63064548397f8f475263",
+      "bytes": 275612,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 787,
+      "bundledBytes": 158048
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-6700426432752817-d4dfb98d.jpg",
+      "assetPath": "assets/images/43cac824e238-1.webp",
+      "sha256": "2483441fed56c2de362d71c2e7e750baf80ac74f518d63064548397f8f475263",
+      "bytes": 275612,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 787,
+      "bundledBytes": 158048
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-5612731662236101-1b3bfd16.jpg",
+      "assetPath": "assets/images/43cac824e238-v0.webp",
+      "sha256": "b11878ff4d75fa3b97d477ec7a08be5079cebc141084d0712a0dac4fa9c39aa0",
+      "bytes": 36893,
+      "verifiedAt": "2026-10-19",
+      "width": 180,
+      "height": 1080,
+      "bundledBytes": 35152
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-6339986030146776-aeba8211.jpg",
+      "assetPath": "assets/images/43cac824e238-v1.webp",
+      "sha256": "5cf5a6237b695ae155802f7b67c4cdca08ddf2b3b22312fd1caa9ccce84ed689",
+      "bytes": 29186,
+      "verifiedAt": "2026-10-19",
+      "width": 204,
+      "height": 1080,
+      "bundledBytes": 22746
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-5037517077422229-580f5ad9.jpg",
+      "assetPath": "assets/images/8ed1ad62b3e5-0.webp",
+      "sha256": "32db1af05e08b7dbbdc33e124fc1d2c059f109bf1765eb92fc0628b57dd00b27",
+      "bytes": 414782,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 787,
+      "bundledBytes": 272692
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-8369987446343979-583b33a9.jpg",
+      "assetPath": "assets/images/8ed1ad62b3e5-v0.webp",
+      "sha256": "45ab932f87ac28e51e97c6249ccd9ab2714d082e689f1485272852f21235bc21",
+      "bytes": 183651,
+      "verifiedAt": "2026-10-19",
+      "width": 540,
+      "height": 1080,
+      "bundledBytes": 217160
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-28081525179000855-a25f44ce.jpg",
+      "assetPath": "assets/images/8ed1ad62b3e5-v1.webp",
+      "sha256": "d98e0903aeb054f5818d7bee3341dffb8d78826d968470b899e2c930cbfbe06a",
+      "bytes": 230141,
+      "verifiedAt": "2026-10-19",
+      "width": 540,
+      "height": 1080,
+      "bundledBytes": 262638
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-848417057728303-2c83129d.jpg",
+      "assetPath": "assets/images/8ed1ad62b3e5-v2.webp",
+      "sha256": "45ab932f87ac28e51e97c6249ccd9ab2714d082e689f1485272852f21235bc21",
+      "bytes": 183651,
+      "verifiedAt": "2026-10-19",
+      "width": 540,
+      "height": 1080,
+      "bundledBytes": 217160
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-6696266059112076-9aca83f4.jpg",
+      "assetPath": "assets/images/e243d37fd58f-0.webp",
+      "sha256": "8ace23f6072f8383799b613dbc22be778d2102f81d60e5eb03cc9df053f585d8",
+      "bytes": 25326,
+      "verifiedAt": "2026-10-19",
+      "width": 250,
+      "height": 500,
+      "bundledBytes": 24302
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-6696266059112076-9aca83f4.jpg",
+      "assetPath": "assets/images/e243d37fd58f-v0.webp",
+      "sha256": "8ace23f6072f8383799b613dbc22be778d2102f81d60e5eb03cc9df053f585d8",
+      "bytes": 25326,
+      "verifiedAt": "2026-10-19",
+      "width": 250,
+      "height": 500,
+      "bundledBytes": 24302
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-9929739230428817-65814079.jpg",
+      "assetPath": "assets/images/cba1e89110f2-0.webp",
+      "sha256": "d6debf4d5e48492bdfe7d0ac9481a441e161969d5c8ffbf27cab14fd057f7174",
+      "bytes": 303609,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 787,
+      "bundledBytes": 154330
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-5157145087872212-0848f910.jpg",
+      "assetPath": "assets/images/cba1e89110f2-1.webp",
+      "sha256": "d6debf4d5e48492bdfe7d0ac9481a441e161969d5c8ffbf27cab14fd057f7174",
+      "bytes": 303609,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 787,
+      "bundledBytes": 154330
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-5321058657865283-ec36eaa8.jpg",
+      "assetPath": "assets/images/cba1e89110f2-v0.webp",
+      "sha256": "f84ace1d94c1dfa9fafec4c156e475d834ca32ab2551334345d4fdbe80081208",
+      "bytes": 412135,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 1400,
+      "bundledBytes": 170346
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-620954024024731-c07b220d.jpg",
+      "assetPath": "assets/images/cba1e89110f2-v1.webp",
+      "sha256": "1b0313247e839e69ee9d4e60c9c9e658877d06f7a8a93064e223eb863720bc69",
+      "bytes": 23673,
+      "verifiedAt": "2026-10-19",
+      "width": 500,
+      "height": 500,
+      "bundledBytes": 14068
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-7129465147277746-fa279ec5.jpg",
+      "assetPath": "assets/images/cba1e89110f2-v2.webp",
+      "sha256": "75286b7c8863b5b8f1122b105f1bac193b5a8ece8da63a6294fa9318a3c5c6ba",
+      "bytes": 33370,
+      "verifiedAt": "2026-10-19",
+      "width": 500,
+      "height": 500,
+      "bundledBytes": 25838
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-11158572243678289-b8f1ae27.jpg",
+      "assetPath": "assets/images/df00aed411b2-0.webp",
+      "sha256": "22306044bf2e19a2c099e0ac2f682794f02fc86b8c9cebbcfd645dac54cfa19d",
+      "bytes": 369453,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 787,
+      "bundledBytes": 230548
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-020837111813363784-bfb37bc9.jpg",
+      "assetPath": "assets/images/df00aed411b2-v0.webp",
+      "sha256": "e393d3133ce26b9e1298ea3242190556628d351c6b0d6f92b5d3e68a7a846941",
+      "bytes": 21338,
+      "verifiedAt": "2026-10-19",
+      "width": 250,
+      "height": 500,
+      "bundledBytes": 19802
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-4852624414476262-96ea2bdb.jpg",
+      "assetPath": "assets/images/df00aed411b2-v1.webp",
+      "sha256": "c8d7258cf992d761a3fca9ca1cf412770466834d32a8f3fe3281bb269e296e75",
+      "bytes": 24402,
+      "verifiedAt": "2026-10-19",
+      "width": 250,
+      "height": 500,
+      "bundledBytes": 25610
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-5883124992035748-ff3f9be9.jpg",
+      "assetPath": "assets/images/df00aed411b2-v2.webp",
+      "sha256": "d598b095784aa500a5af0573d279d06f5e4031e7afecbc4ad3fd377cd7d549a1",
+      "bytes": 14478,
+      "verifiedAt": "2026-10-19",
+      "width": 250,
+      "height": 500,
+      "bundledBytes": 10128
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-5462726682891759-bcf690a6.jpg",
+      "assetPath": "assets/images/3b4ecafbb009-0.webp",
+      "sha256": "b6bf118f9d32b3c7cb7a9b7dab80dfe6dac60ff2e40b56fc8e93251af8ec98bb",
+      "bytes": 281244,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 787,
+      "bundledBytes": 161026
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-8709813417998084-8dd5ef2f.jpg",
+      "assetPath": "assets/images/3b4ecafbb009-v0.webp",
+      "sha256": "0201748f61983e964977ed9935592dcacd040b133fe070c4b25897f447ecdb05",
+      "bytes": 47440,
+      "verifiedAt": "2026-10-19",
+      "width": 500,
+      "height": 500,
+      "bundledBytes": 41726
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-3620130496700682-5c3ce0be.jpg",
+      "assetPath": "assets/images/3b4ecafbb009-v1.webp",
+      "sha256": "6f09ef5e99e299538b861906549138b118fa699feb03d176dff768d793602f32",
+      "bytes": 49183,
+      "verifiedAt": "2026-10-19",
+      "width": 500,
+      "height": 500,
+      "bundledBytes": 42228
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-18363591227948628-09909137.jpg",
+      "assetPath": "assets/images/3b4ecafbb009-v2.webp",
+      "sha256": "2adc3102c68b2ec8a2e09632776b9ec4bbb9a3cfb58b70fa290f2bf9970f9124",
+      "bytes": 44275,
+      "verifiedAt": "2026-10-19",
+      "width": 500,
+      "height": 500,
+      "bundledBytes": 38130
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-5141924545387457-5713d34c.jpg",
+      "assetPath": "assets/images/69c0c891f884-0.webp",
+      "sha256": "8e3742c935480ea9785d5866a356a33492fb536adb8205549f660e36acaa00b5",
+      "bytes": 226574,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 787,
+      "bundledBytes": 98906
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-5596958566033161-08b59253.jpg",
+      "assetPath": "assets/images/69c0c891f884-v0.webp",
+      "sha256": "485239082f3bced2d6d825db691558bc46275abd690dee8ce04ec044e04d551f",
+      "bytes": 22621,
+      "verifiedAt": "2026-10-19",
+      "width": 250,
+      "height": 500,
+      "bundledBytes": 22828
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-07052725994487363-d4650106.jpg",
+      "assetPath": "assets/images/69c0c891f884-v1.webp",
+      "sha256": "7d2f2944a3bdf5534561f94f75151e48d87c0045480d36669c76deb45f503a0a",
+      "bytes": 20756,
+      "verifiedAt": "2026-10-19",
+      "width": 250,
+      "height": 500,
+      "bundledBytes": 19560
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-3646805712115262-d90b034a.jpg",
+      "assetPath": "assets/images/69c0c891f884-v2.webp",
+      "sha256": "485239082f3bced2d6d825db691558bc46275abd690dee8ce04ec044e04d551f",
+      "bytes": 22621,
+      "verifiedAt": "2026-10-19",
+      "width": 250,
+      "height": 500,
+      "bundledBytes": 22828
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-904344932161151-661be32a.jpg",
+      "assetPath": "assets/images/57bd5946316b-0.webp",
+      "sha256": "7e8adcbfb66a8d06575fd0867ef1179be99fcf2e22be3e18168e0c934721093f",
+      "bytes": 208003,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 787,
+      "bundledBytes": 99448
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-6426140756569027-8430a4f1.jpg",
+      "assetPath": "assets/images/57bd5946316b-v0.webp",
+      "sha256": "537f33c8d695927ad528c43e3101ccc617fefaf2623eb4298c8dd19aaab79a6b",
+      "bytes": 9279,
+      "verifiedAt": "2026-10-19",
+      "width": 200,
+      "height": 400,
+      "bundledBytes": 6954
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-4244001133558908-7f6aaecd.jpg",
+      "assetPath": "assets/images/57bd5946316b-v1.webp",
+      "sha256": "c179ceded991762a153dd999a466d05d546a25ea04786d809425ad3a7407fe13",
+      "bytes": 6110,
+      "verifiedAt": "2026-10-19",
+      "width": 133,
+      "height": 400,
+      "bundledBytes": 4168
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-2614968469537643-a7dc5c48.jpg",
+      "assetPath": "assets/images/57bd5946316b-v2.webp",
+      "sha256": "0315446c0051e47a1aeef285aec74e8efb2aabf0ad27bad3b7fae2d3708619d0",
+      "bytes": 11446,
+      "verifiedAt": "2026-10-19",
+      "width": 133,
+      "height": 400,
+      "bundledBytes": 10626
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-8053574568387257-1e5b2884.jpg",
+      "assetPath": "assets/images/6bf5b0487283-0.webp",
+      "sha256": "c02bedae7064de8b6897e6676776ff28601e74d577d05b855cdba7c57c7c56cd",
+      "bytes": 253533,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 787,
+      "bundledBytes": 126462
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-8759400600929101-eb8a02c8.jpg",
+      "assetPath": "assets/images/6bf5b0487283-v0.webp",
+      "sha256": "a334b16ae429ee3b2171f0f791ca209bd9eddb93e615255f795808a5c52356ba",
+      "bytes": 32644,
+      "verifiedAt": "2026-10-19",
+      "width": 500,
+      "height": 500,
+      "bundledBytes": 25054
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-8753720289351266-fa7367b0.jpg",
+      "assetPath": "assets/images/6bf5b0487283-v1.webp",
+      "sha256": "8b3fdc7c207a6a911b8312e3352802cebdfed76b09c59a457619be405d65ce33",
+      "bytes": 27119,
+      "verifiedAt": "2026-10-19",
+      "width": 500,
+      "height": 500,
+      "bundledBytes": 17640
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-94647359757343-edcd9f5b.jpg",
+      "assetPath": "assets/images/201ede1278e0-0.webp",
+      "sha256": "ac378aac90ee49b8eb35362138d7125d54f76c31b7f3fa2ae6ca5a2b04a18d6a",
+      "bytes": 11720,
+      "verifiedAt": "2026-10-19",
+      "width": 125,
+      "height": 500,
+      "bundledBytes": 9714
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-94647359757343-edcd9f5b.jpg",
+      "assetPath": "assets/images/201ede1278e0-v0.webp",
+      "sha256": "ac378aac90ee49b8eb35362138d7125d54f76c31b7f3fa2ae6ca5a2b04a18d6a",
+      "bytes": 11720,
+      "verifiedAt": "2026-10-19",
+      "width": 125,
+      "height": 500,
+      "bundledBytes": 9714
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-645242195051928-8672b5a1.jpg",
+      "assetPath": "assets/images/395f391290e8-0.webp",
+      "sha256": "2cae4b63599f21239cec6a6b5735bf864b6882783ba9c3aaa8b12aa192f9fc6c",
+      "bytes": 251138,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 787,
+      "bundledBytes": 107542
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-8620525626202589-102ef0f2.jpg",
+      "assetPath": "assets/images/395f391290e8-v0.webp",
+      "sha256": "c9cd3eb27bc73356369dcd5ad6d0752b1903a86e74949987b4036ebc11ef6fcc",
+      "bytes": 11868,
+      "verifiedAt": "2026-10-19",
+      "width": 125,
+      "height": 500,
+      "bundledBytes": 11120
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-03978951762476601-28d09afe.jpg",
+      "assetPath": "assets/images/395f391290e8-v1.webp",
+      "sha256": "1b907a4fe576e478c1fbbd3f09a58dc4b4fdcd4cc970ac1fb7469f4f878228e5",
+      "bytes": 9007,
+      "verifiedAt": "2026-10-19",
+      "width": 125,
+      "height": 500,
+      "bundledBytes": 6716
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-0110092176846176-ec3c0f45.jpg",
+      "assetPath": "assets/images/d6a98296c9f6-0.webp",
+      "sha256": "fcc1e43f1320c6bdf2c58ff861d4e8011d02f3857e8dd03a11bda2429a8aa1b1",
+      "bytes": 282187,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 787,
+      "bundledBytes": 124528
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-6328602138868326-0eda8ba9.jpg",
+      "assetPath": "assets/images/d6a98296c9f6-v0.webp",
+      "sha256": "fce84f83bdd4344076073d324bffdc833afeda879a4244a339b41a57b5e39cd8",
+      "bytes": 16791,
+      "verifiedAt": "2026-10-19",
+      "width": 250,
+      "height": 500,
+      "bundledBytes": 13488
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-3380536988122398-e527fe7e.jpg",
+      "assetPath": "assets/images/d6a98296c9f6-v1.webp",
+      "sha256": "dc38e0a8d1bbac6062b31580b2e9c30962851fac591865fdebb88dc1d3692427",
+      "bytes": 19634,
+      "verifiedAt": "2026-10-19",
+      "width": 250,
+      "height": 500,
+      "bundledBytes": 17624
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-2570871381086379-2f7d7bf0.jpg",
+      "assetPath": "assets/images/08136fbc64d5-0.webp",
+      "sha256": "00d3234784580848621e3167bd03e5ee3ad15128a90b6149715ab3ae44403917",
+      "bytes": 265502,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 787,
+      "bundledBytes": 126060
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-4121275218761158-40451deb.jpg",
+      "assetPath": "assets/images/08136fbc64d5-1.webp",
+      "sha256": "00d3234784580848621e3167bd03e5ee3ad15128a90b6149715ab3ae44403917",
+      "bytes": 265502,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 787,
+      "bundledBytes": 126060
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-8973637064125544-4d5d13dd.jpg",
+      "assetPath": "assets/images/08136fbc64d5-v0.webp",
+      "sha256": "f0032af0af0a50e333a63f4106b536af9b076c1b290ab6ad3d92ecab862ec3ce",
+      "bytes": 52706,
+      "verifiedAt": "2026-10-19",
+      "width": 270,
+      "height": 1080,
+      "bundledBytes": 51318
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-37662892851855134-757ab828.jpg",
+      "assetPath": "assets/images/08136fbc64d5-v1.webp",
+      "sha256": "375bfcf26fc0eb94464c22ee8921fa93b48bd9150c85d7db17a16ccf21a49e9d",
+      "bytes": 41211,
+      "verifiedAt": "2026-10-19",
+      "width": 270,
+      "height": 1080,
+      "bundledBytes": 36202
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-9445500131837165-42452bb7.jpg",
+      "assetPath": "assets/images/08136fbc64d5-v2.webp",
+      "sha256": "29d85dbd75f6d82be9ceae12bc73de8f6539d4d02c538dcd82922e305563aff8",
+      "bytes": 34033,
+      "verifiedAt": "2026-10-19",
+      "width": 270,
+      "height": 1080,
+      "bundledBytes": 26088
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-16363980194567807-15b8a545.jpg",
+      "assetPath": "assets/images/1393efdf57c7-0.webp",
+      "sha256": "9c2f9aaa4177efa31d39286279c3fc7a3ce8ab1fe3b8baef682dc9333f97bac0",
+      "bytes": 32771,
+      "verifiedAt": "2026-10-19",
+      "width": 180,
+      "height": 1080,
+      "bundledBytes": 31386
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-16363980194567807-15b8a545.jpg",
+      "assetPath": "assets/images/1393efdf57c7-v0.webp",
+      "sha256": "9c2f9aaa4177efa31d39286279c3fc7a3ce8ab1fe3b8baef682dc9333f97bac0",
+      "bytes": 32771,
+      "verifiedAt": "2026-10-19",
+      "width": 180,
+      "height": 1080,
+      "bundledBytes": 31386
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-6927070942996757-1a76f45f.jpg",
+      "assetPath": "assets/images/0a9e902672e4-0.webp",
+      "sha256": "945ef13cae0d4ba1dd7ef9454f24f636dc3f18393f8a71691ef195d65ac83864",
+      "bytes": 155760,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 787,
+      "bundledBytes": 65018
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-37523216373059864-280644aa.jpg",
+      "assetPath": "assets/images/0a9e902672e4-v0.webp",
+      "sha256": "976d9e934758ac4cd90ed95bed2c9e088fa18d9a80b763d97c0da2c7e366df3c",
+      "bytes": 11903,
+      "verifiedAt": "2026-10-19",
+      "width": 400,
+      "height": 400,
+      "bundledBytes": 6276
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-08539840789800279-3d55ec12.jpg",
+      "assetPath": "assets/images/0a9e902672e4-v1.webp",
+      "sha256": "9e55edbd2e3c642f1c84a9773ae88b6b835f43a4bf054f740e18e6a5a93742d1",
+      "bytes": 33039,
+      "verifiedAt": "2026-10-19",
+      "width": 500,
+      "height": 500,
+      "bundledBytes": 26466
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-19076863165094604-4bd0b973.jpg",
+      "assetPath": "assets/images/0a9e902672e4-v2.webp",
+      "sha256": "ba897ea2622539a99f2b6566988cc9caaadb6e95ba6caecaab7fc9314353618d",
+      "bytes": 33307,
+      "verifiedAt": "2026-10-19",
+      "width": 500,
+      "height": 500,
+      "bundledBytes": 27230
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-8152763928199058-79177f09.jpg",
+      "assetPath": "assets/images/7ffbd356f04c-0.webp",
+      "sha256": "a8866f93e965caf42232313b8c4424fe7609869c5e8c2fb35e4e4bc29c0e727c",
+      "bytes": 374370,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 787,
+      "bundledBytes": 225842
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-07952729956679516-bf07ff9d.jpg",
+      "assetPath": "assets/images/7ffbd356f04c-1.webp",
+      "sha256": "a8866f93e965caf42232313b8c4424fe7609869c5e8c2fb35e4e4bc29c0e727c",
+      "bytes": 374370,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 787,
+      "bundledBytes": 225842
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-14363732367923565-0778f4fb.jpg",
+      "assetPath": "assets/images/7ffbd356f04c-v0.webp",
+      "sha256": "3c3b9db993b52045965ac89c289a4a1162dc695874a7d562e9dea3bfd640993f",
+      "bytes": 42908,
+      "verifiedAt": "2026-10-19",
+      "width": 180,
+      "height": 1080,
+      "bundledBytes": 44996
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-9289220876058076-026e9678.jpg",
+      "assetPath": "assets/images/7ffbd356f04c-v1.webp",
+      "sha256": "7affc5b466a6a05e9ba3438da013a711d6dedd5017250256fb98a18576b9b209",
+      "bytes": 41865,
+      "verifiedAt": "2026-10-19",
+      "width": 180,
+      "height": 1080,
+      "bundledBytes": 39812
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-11067257326398261-57b0049a.jpg",
+      "assetPath": "assets/images/7ffbd356f04c-v2.webp",
+      "sha256": "c6fb2537e31b07348bd94e615a5ccbd0571606a011e307575f24dde9c7b533db",
+      "bytes": 41388,
+      "verifiedAt": "2026-10-19",
+      "width": 180,
+      "height": 1080,
+      "bundledBytes": 44932
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-2666019992548425-39a45bcb.jpg",
+      "assetPath": "assets/images/556d47b9ec02-0.webp",
+      "sha256": "e58de1c1569b7893fedacc99ec3d37bbffdef45ce1cca57998f8925dc3216d2c",
+      "bytes": 292649,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 787,
+      "bundledBytes": 151506
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-7154734359729206-fa1df209.jpg",
+      "assetPath": "assets/images/556d47b9ec02-1.webp",
+      "sha256": "e58de1c1569b7893fedacc99ec3d37bbffdef45ce1cca57998f8925dc3216d2c",
+      "bytes": 292649,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 787,
+      "bundledBytes": 151506
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-4859482644246256-f1dd01f4.jpg",
+      "assetPath": "assets/images/556d47b9ec02-v0.webp",
+      "sha256": "8576be5fcd629b33e84df9c933582237641ae485e108e06a0d565a9b8f4b1f50",
+      "bytes": 701347,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 1400,
+      "bundledBytes": 436772
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-660662839993997-fe86e118.jpg",
+      "assetPath": "assets/images/556d47b9ec02-v1.webp",
+      "sha256": "4313c09b327c42b85b57f7897460559b1e2ec759f84ef592e74c06166163af89",
+      "bytes": 787459,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 1400,
+      "bundledBytes": 512924
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-6163173529644416-0aedd0e6.jpg",
+      "assetPath": "assets/images/556d47b9ec02-v2.webp",
+      "sha256": "dd04e751961140ef5207b1221e373412dab533f5a7073dd634d3bd966a3da791",
+      "bytes": 743138,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 1400,
+      "bundledBytes": 484756
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-5586517794863232-4d47e618.jpg",
+      "assetPath": "assets/images/4c6a8f4c0b3d-0.webp",
+      "sha256": "13731f0d6bf8f74c22e038d27097c16e44a744e32ef3d6e2f626e65ded55b564",
+      "bytes": 257684,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 787,
+      "bundledBytes": 119862
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-13008948629254213-0c1e76c3.jpg",
+      "assetPath": "assets/images/4c6a8f4c0b3d-1.webp",
+      "sha256": "13731f0d6bf8f74c22e038d27097c16e44a744e32ef3d6e2f626e65ded55b564",
+      "bytes": 257684,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 787,
+      "bundledBytes": 119862
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-30065828192187516-39932f6f.jpg",
+      "assetPath": "assets/images/4c6a8f4c0b3d-v0.webp",
+      "sha256": "d46446e15b148cc8e8bda719e1634916d706014580d5e8eae59a2a1d8b38eb6e",
+      "bytes": 57506,
+      "verifiedAt": "2026-10-19",
+      "width": 339,
+      "height": 1080,
+      "bundledBytes": 50522
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-8513824980570148-f01cbce2.jpg",
+      "assetPath": "assets/images/4c6a8f4c0b3d-v1.webp",
+      "sha256": "1dba1f66decc1a538925df1f9d23865bf1c43e1d74b4f06330fbc0eaee234263",
+      "bytes": 40192,
+      "verifiedAt": "2026-10-19",
+      "width": 368,
+      "height": 1080,
+      "bundledBytes": 26038
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-8124947971594372-d86ae720.jpg",
+      "assetPath": "assets/images/4c6a8f4c0b3d-v2.webp",
+      "sha256": "ba1c9eb056c6589f367d2b664fc7cb34995ff13c8b4b0b57d91fe95d4f466220",
+      "bytes": 62772,
+      "verifiedAt": "2026-10-19",
+      "width": 366,
+      "height": 1080,
+      "bundledBytes": 53752
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-4595573760386664-f3986b62.jpg",
+      "assetPath": "assets/images/db95882ed4dd-0.webp",
+      "sha256": "964306b3f95cd6b4e87d5d0b473bcd86d644d33f1ec901f6f02d5a4572afc92f",
+      "bytes": 42171,
+      "verifiedAt": "2026-10-19",
+      "width": 270,
+      "height": 1080,
+      "bundledBytes": 35144
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-4595573760386664-f3986b62.jpg",
+      "assetPath": "assets/images/db95882ed4dd-v0.webp",
+      "sha256": "964306b3f95cd6b4e87d5d0b473bcd86d644d33f1ec901f6f02d5a4572afc92f",
+      "bytes": 42171,
+      "verifiedAt": "2026-10-19",
+      "width": 270,
+      "height": 1080,
+      "bundledBytes": 35144
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-47354173330838545-e947905a.jpg",
+      "assetPath": "assets/images/db95882ed4dd-v1.webp",
+      "sha256": "9631c509e84901dcca73517217e09233ad34277bc5b1e598255a10c273407c31",
+      "bytes": 41254,
+      "verifiedAt": "2026-10-19",
+      "width": 270,
+      "height": 1080,
+      "bundledBytes": 34124
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-5285993780966377-dac8cb93.jpg",
+      "assetPath": "assets/images/db95882ed4dd-v2.webp",
+      "sha256": "f4727de1431a1b2086f7fcab21e110df461119d12e3d285be1bada6bb44c93b4",
+      "bytes": 53734,
+      "verifiedAt": "2026-10-19",
+      "width": 270,
+      "height": 1080,
+      "bundledBytes": 52822
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-8406040068959235-322af6c0.jpg",
+      "assetPath": "assets/images/810cb125cd1c-0.webp",
+      "sha256": "8cd40ce91fd3cda1883a5ba0b47d466fae5cff70e9caeeade2d2fba1e35b6195",
+      "bytes": 433693,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 787,
+      "bundledBytes": 297314
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-3144619803426687-fc5956cf.jpg",
+      "assetPath": "assets/images/810cb125cd1c-v0.webp",
+      "sha256": "5430a26b2d83293f5e126ac3b5f6c1a1abf4a5d8ff4eb3c730c17096a6c3728f",
+      "bytes": 31638,
+      "verifiedAt": "2026-10-19",
+      "width": 250,
+      "height": 500,
+      "bundledBytes": 35676
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-9626000038840694-903df4d0.jpg",
+      "assetPath": "assets/images/810cb125cd1c-v1.webp",
+      "sha256": "864ece7d63d33f6a8a04620a61350e953b58168030c769b7e85385b62375f425",
+      "bytes": 28935,
+      "verifiedAt": "2026-10-19",
+      "width": 250,
+      "height": 500,
+      "bundledBytes": 31600
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-3353042798752184-7f961f95.jpg",
+      "assetPath": "assets/images/810cb125cd1c-v2.webp",
+      "sha256": "1593e4d9ebeb504131b33d4227622156ce05a4114c86b8dc2d5e8d631775679f",
+      "bytes": 27587,
+      "verifiedAt": "2026-10-19",
+      "width": 250,
+      "height": 500,
+      "bundledBytes": 28692
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-7682864120924899-2b737233.jpg",
+      "assetPath": "assets/images/501ae1d7f0c8-0.webp",
+      "sha256": "47364c894dec621ba507b7baa7d6294911f432d6abf9be623de9e11fed7301e1",
+      "bytes": 557082,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 787,
+      "bundledBytes": 395442
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-6927036230992087-a12e0b54.jpg",
+      "assetPath": "assets/images/501ae1d7f0c8-v0.webp",
+      "sha256": "a0f96d7c1d23178fabbe982b69ea19d9b0cfc6b0ca0a394196330277ec2e98ee",
+      "bytes": 40667,
+      "verifiedAt": "2026-10-19",
+      "width": 250,
+      "height": 500,
+      "bundledBytes": 47944
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-278605961549942-d0b3533c.jpg",
+      "assetPath": "assets/images/501ae1d7f0c8-v1.webp",
+      "sha256": "a0f96d7c1d23178fabbe982b69ea19d9b0cfc6b0ca0a394196330277ec2e98ee",
+      "bytes": 40667,
+      "verifiedAt": "2026-10-19",
+      "width": 250,
+      "height": 500,
+      "bundledBytes": 47944
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-25210537281430634-0975e258.jpg",
+      "assetPath": "assets/images/501ae1d7f0c8-v2.webp",
+      "sha256": "d3afc4ed646d478781f9d73dbc18f2a3c7369753a8b265aaebb3fbb3bdd44503",
+      "bytes": 36518,
+      "verifiedAt": "2026-10-19",
+      "width": 250,
+      "height": 500,
+      "bundledBytes": 42252
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-5182139768815777-cf034144.jpg",
+      "assetPath": "assets/images/3631163ea088-0.webp",
+      "sha256": "54e2ef8ef5cb8df96b89597b148d06be316f8d24dc28a3aa25c547bd4b2ddb1d",
+      "bytes": 214460,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 787,
+      "bundledBytes": 101052
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/0-1503063282498206-ca5e2e1d.jpg",
+      "assetPath": "assets/images/3631163ea088-v0.webp",
+      "sha256": "420deb4e16ac1feb2d3f15ae08be865d9c127a403605a2095ce87defe2f14430",
+      "bytes": 47161,
+      "verifiedAt": "2026-10-19",
+      "width": 180,
+      "height": 1080,
+      "bundledBytes": 50312
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/1770500058754-0sceo9i-feb3b101.png",
+      "assetPath": "assets/images/c3c24240071e-0.webp",
+      "sha256": "b9e520e4e7d71ece00d32c13c135c0265da6ab0cdbed196e43eeed00403a786d",
+      "bytes": 66817,
+      "verifiedAt": "2026-10-19",
+      "width": 635,
+      "height": 635,
+      "bundledBytes": 7906
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/1770569676284-fbi20vy-db6d82de.png",
+      "assetPath": "assets/images/cd483329b339-0.webp",
+      "sha256": "0a6160030678a43c927811ab1c395c2eb7e6d00f97e346f47c18d221fe8d9b7d",
+      "bytes": 30079,
+      "verifiedAt": "2026-10-19",
+      "width": 635,
+      "height": 635,
+      "bundledBytes": 4788
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/1770571065574-4hzhnus-ac07492e.png",
+      "assetPath": "assets/images/b08fdfd583f5-0.webp",
+      "sha256": "61acda5bd701ff4ad039b271f82bd1628954b633d9dfb6e5283fede90ae14b2c",
+      "bytes": 1213183,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 1400,
+      "bundledBytes": 64424
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/1770571580653-df45kji-d0849f58.png",
+      "assetPath": "assets/images/19cb823ce5d7-0.webp",
+      "sha256": "c4522e4d5430b2f87d33be316828f2747cc9cf9dec9ce45a0f85917856e326c4",
+      "bytes": 109087,
+      "verifiedAt": "2026-10-19",
+      "width": 635,
+      "height": 635,
+      "bundledBytes": 13648
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/1770571948558-gevaxfv-4571c940.png",
+      "assetPath": "assets/images/661363ebe674-0.webp",
+      "sha256": "70ab2b0cd4051e5e59ee959a60917c0ce58981cb128f0f3a617a59b073b9dbea",
+      "bytes": 103531,
+      "verifiedAt": "2026-10-19",
+      "width": 635,
+      "height": 635,
+      "bundledBytes": 14658
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/1770578408317-ukqs6f2-9d7109b1.png",
+      "assetPath": "assets/images/3d76fe940a92-0.webp",
+      "sha256": "7fb4f867d6e51b4657883a748054fcd3bd3ed6ee2c56f000b4c70c3215bc5028",
+      "bytes": 401520,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 1400,
+      "bundledBytes": 31844
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/1770578934942-ah6pjyx-3c42f4b6.png",
+      "assetPath": "assets/images/557e4c3e5f4f-0.webp",
+      "sha256": "ef457ea055c7bd9aa2493fb32b8048d51f260ef0f33dada2b3df8e2ed41ea717",
+      "bytes": 432409,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 1400,
+      "bundledBytes": 34332
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/1770579293386-vy9ts7z-8cc6523b.png",
+      "assetPath": "assets/images/986faef3ed91-0.webp",
+      "sha256": "f303df75af00ed2001143d30576399b5e2683283a3517f408a87b19e3e1433eb",
+      "bytes": 166277,
+      "verifiedAt": "2026-10-19",
+      "width": 635,
+      "height": 635,
+      "bundledBytes": 17328
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/1769958329708-r8fzups-54e05c83.png",
+      "assetPath": "assets/images/e546f7b671bb-0.webp",
+      "sha256": "6f5a1a4d26374194a2f283edd7f87426d73f19932ee1275a0ab4cf2d0fba97f1",
+      "bytes": 68758,
+      "verifiedAt": "2026-10-19",
+      "width": 635,
+      "height": 635,
+      "bundledBytes": 6108
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/1769888228944-bmy534c-c82871ce.png",
+      "assetPath": "assets/images/6010e20cc5e6-0.webp",
+      "sha256": "170017fde3b11cd17fe52cbaf9c8a01810d7c3540d818c34e782fe0d6e878542",
+      "bytes": 23531,
+      "verifiedAt": "2026-10-19",
+      "width": 635,
+      "height": 635,
+      "bundledBytes": 4092
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/1769955556047-zcyah8e-6cad4266.png",
+      "assetPath": "assets/images/7b03b52d7ecc-0.webp",
+      "sha256": "aec001de4a82d1923cfe16efc9727421f52fae161ba8dc9a51ff5058400230fe",
+      "bytes": 63506,
+      "verifiedAt": "2026-10-19",
+      "width": 635,
+      "height": 635,
+      "bundledBytes": 6678
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/1769886847479-sngjelm-ea42824c.png",
+      "assetPath": "assets/images/d3e95d12d7dd-0.webp",
+      "sha256": "ccf2e0efd077371fe5f1fa127befb1ca363e59b052b14813525295556e2aa0de",
+      "bytes": 53481,
+      "verifiedAt": "2026-10-19",
+      "width": 635,
+      "height": 635,
+      "bundledBytes": 5856
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/1769881808969-7ivopac-139e290c.png",
+      "assetPath": "assets/images/be4b6fafae81-0.webp",
+      "sha256": "d4cd02d22f17e6292e3cf6dbec6407ebc6d80ef5cc85c52ccd4d9b24286d2cdc",
+      "bytes": 89357,
+      "verifiedAt": "2026-10-19",
+      "width": 635,
+      "height": 635,
+      "bundledBytes": 8724
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/1769949784035-n0n51ju-8f064ca7.png",
+      "assetPath": "assets/images/525e0cc5f228-0.webp",
+      "sha256": "002df967d7a65cc00eb8060ad936a26089a1d10249e8a38bc1cbf5c99fca717b",
+      "bytes": 46766,
+      "verifiedAt": "2026-10-19",
+      "width": 635,
+      "height": 635,
+      "bundledBytes": 5290
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/1769958329708-r8fzups-54e05c83.png",
+      "assetPath": "assets/images/c17fab765a3b-0.webp",
+      "sha256": "6f5a1a4d26374194a2f283edd7f87426d73f19932ee1275a0ab4cf2d0fba97f1",
+      "bytes": 68758,
+      "verifiedAt": "2026-10-19",
+      "width": 635,
+      "height": 635,
+      "bundledBytes": 6108
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/1769888228944-bmy534c-c82871ce.png",
+      "assetPath": "assets/images/262ce076f0c3-0.webp",
+      "sha256": "170017fde3b11cd17fe52cbaf9c8a01810d7c3540d818c34e782fe0d6e878542",
+      "bytes": 23531,
+      "verifiedAt": "2026-10-19",
+      "width": 635,
+      "height": 635,
+      "bundledBytes": 4092
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/1769955556047-zcyah8e-6cad4266.png",
+      "assetPath": "assets/images/89b356cf2ac9-0.webp",
+      "sha256": "aec001de4a82d1923cfe16efc9727421f52fae161ba8dc9a51ff5058400230fe",
+      "bytes": 63506,
+      "verifiedAt": "2026-10-19",
+      "width": 635,
+      "height": 635,
+      "bundledBytes": 6678
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/dosya/uploads/1769886847479-sngjelm-ea42824c.png",
+      "assetPath": "assets/images/9a1bb34a790a-0.webp",
+      "sha256": "ccf2e0efd077371fe5f1fa127befb1ca363e59b052b14813525295556e2aa0de",
+      "bytes": 53481,
+      "verifiedAt": "2026-10-19",
+      "width": 635,
+      "height": 635,
+      "bundledBytes": 5856
+    },
+    {
+      "sourceUrl": "https://www.graniser.com.tr/images/urunler/deep_7e085.jpg",
+      "assetPath": "assets/images/ffdf17014c6c-0.webp",
+      "sha256": "b2887a3557299823173076887c735a484da942fb0ae7cc9aa379d31fd69672c5",
+      "bytes": 1386231,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 933,
+      "bundledBytes": 144210
+    },
+    {
+      "sourceUrl": "https://www.graniser.com.tr/images/urunler/marine_a9e8c.jpg",
+      "assetPath": "assets/images/2051e05f6bec-0.webp",
+      "sha256": "480ebdb0a8d0920610106c51c135de3e2abe19bda7cca70ce9ef3cffa9593dcf",
+      "bytes": 1875822,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 933,
+      "bundledBytes": 239762
+    },
+    {
+      "sourceUrl": "https://www.graniser.com.tr/images/urunler/rockland_e6925.jpg",
+      "assetPath": "assets/images/9fc14818bb42-0.webp",
+      "sha256": "869c58d43808daabcbc2f9ce34d65ae4e7ff32de6c8cd292e34cd076f516fa4b",
+      "bytes": 1909715,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 933,
+      "bundledBytes": 188340
+    },
+    {
+      "sourceUrl": "https://www.graniser.com.tr/images/urunler/burton_46173.jpg",
+      "assetPath": "assets/images/33115d184251-0.webp",
+      "sha256": "eea86e20ca88d6155779ca288fbf6d07f1325c3598f32c74f0c22ac5c1e107e8",
+      "bytes": 2094596,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 933,
+      "bundledBytes": 271198
+    },
+    {
+      "sourceUrl": "https://www.graniser.com.tr/images/urunler/paterno_1c03d.jpg",
+      "assetPath": "assets/images/22d76f6d478d-0.webp",
+      "sha256": "9251afc8ab353ca667a76bf38471deee66d0af4ab399758bba2eac4bfbc04b61",
+      "bytes": 1834401,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 933,
+      "bundledBytes": 137938
+    },
+    {
+      "sourceUrl": "https://www.graniser.com.tr/images/urunler/vicenza_a67d8.jpg",
+      "assetPath": "assets/images/732f2d3f1b7b-0.webp",
+      "sha256": "e7ebc578dcb737c3d92e6d900a082e49f425927c931b756a8ba3bd9b81d56845",
+      "bytes": 1979515,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 933,
+      "bundledBytes": 175774
+    },
+    {
+      "sourceUrl": "https://www.graniser.com.tr/images/urunler/larin_1d136.jpg",
+      "assetPath": "assets/images/84f68e57b400-0.webp",
+      "sha256": "e173d82581929ae19901f3f30dd6e5822704c56f5e35b9ecb407244a7c2ae2d7",
+      "bytes": 1585276,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 933,
+      "bundledBytes": 167506
+    },
+    {
+      "sourceUrl": "https://www.graniser.com.tr/images/urunler/malibu_442f6.jpg",
+      "assetPath": "assets/images/fa70d7ff388c-0.webp",
+      "sha256": "619588c3be5f982285c82b1c47b7070556a6959b9d24ee8c79ace50c688a272f",
+      "bytes": 1158002,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 933,
+      "bundledBytes": 57170
+    },
+    {
+      "sourceUrl": "https://www.graniser.com.tr/images/urunler/new_porto_18851.jpg",
+      "assetPath": "assets/images/a1e44c761aff-0.webp",
+      "sha256": "f84115707adef06a5bcad200ebc5848a5d090e6d1ceaf6e6b9481168ab11472a",
+      "bytes": 1392679,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 933,
+      "bundledBytes": 144450
+    },
+    {
+      "sourceUrl": "https://www.graniser.com.tr/images/urunler/decobeton_f379b.jpg",
+      "assetPath": "assets/images/1a01fd325142-0.webp",
+      "sha256": "7893f29d66b7b0d53ddef550a10916c6b059be6a8f08910eb54fd46824bd1cde",
+      "bytes": 1165105,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 933,
+      "bundledBytes": 58054
+    },
+    {
+      "sourceUrl": "https://www.graniser.com.tr/images/urunler/caroline_74f59.jpg",
+      "assetPath": "assets/images/021457403f25-0.webp",
+      "sha256": "8a86c55198b3eb59b01155833451f23cbed7af62edb868e44539dfecd5b8e10e",
+      "bytes": 1457351,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 933,
+      "bundledBytes": 165362
+    },
+    {
+      "sourceUrl": "https://www.graniser.com.tr/images/urunler/spilos_58b69.jpg",
+      "assetPath": "assets/images/1d37d2dddc7a-0.webp",
+      "sha256": "d0266697a285fa57d3506fb995fc73fba85809de06c1ea45dbec3aeee891c35f",
+      "bytes": 1025940,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 933,
+      "bundledBytes": 71756
+    },
+    {
+      "sourceUrl": "https://www.graniser.com.tr/images/urunler/onida_44b8f.jpg",
+      "assetPath": "assets/images/a9e002bb74a7-0.webp",
+      "sha256": "52c6b3760def93cab851a0b08af04375e56d613f85f124b01aed91e953c0ce43",
+      "bytes": 1596285,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 933,
+      "bundledBytes": 118418
+    },
+    {
+      "sourceUrl": "https://www.graniser.com.tr/images/urunler/agata_48403.jpg",
+      "assetPath": "assets/images/07198b951947-0.webp",
+      "sha256": "0df6a2820e0d48a6425f8885332f388206e33647109ccb450743e4a7aaaad9b8",
+      "bytes": 1182256,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 933,
+      "bundledBytes": 70422
+    },
+    {
+      "sourceUrl": "https://www.graniser.com.tr/images/urunler/evans_df99a.jpg",
+      "assetPath": "assets/images/914164405a2d-0.webp",
+      "sha256": "3f4afb573903dfccb636f748175079c7c521921a389fbfab69ef03db7f364046",
+      "bytes": 1220459,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 933,
+      "bundledBytes": 46490
+    },
+    {
+      "sourceUrl": "https://www.graniser.com.tr/images/urunler/nebura_0e113.jpg",
+      "assetPath": "assets/images/a3d16bbae9e7-0.webp",
+      "sha256": "9f79e300edf10b0c9d2136ad81186f20031add3fe4593eabf5c08199c103dff1",
+      "bytes": 1687352,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 933,
+      "bundledBytes": 151104
+    },
+    {
+      "sourceUrl": "https://www.graniser.com.tr/images/urunler/cenisa_f436c.jpg",
+      "assetPath": "assets/images/022f307401ba-0.webp",
+      "sha256": "54ad7b89649540b478860bb7846415e502889d4f45df66328b67e7f34e997261",
+      "bytes": 1350132,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 933,
+      "bundledBytes": 93960
+    },
+    {
+      "sourceUrl": "https://www.graniser.com.tr/images/urunler/modula_acf29.jpg",
+      "assetPath": "assets/images/61b1c4463595-0.webp",
+      "sha256": "fbb8fbdff7a36615660d6cc6d2ca42fa2de8226fdaa7ee56d3d2a1467cd31497",
+      "bytes": 1040633,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 933,
+      "bundledBytes": 79598
+    },
+    {
+      "sourceUrl": "https://www.graniser.com.tr/images/urunler/trama_e1d2e.jpg",
+      "assetPath": "assets/images/3c3c878e94bf-0.webp",
+      "sha256": "3579af29cb4e6664da5731ea7cf9303fd0772489ee94fde83512b42e978ae014",
+      "bytes": 1930125,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 933,
+      "bundledBytes": 157882
+    },
+    {
+      "sourceUrl": "https://www.graniser.com.tr/images/urunler/versilia_aeca6.jpg",
+      "assetPath": "assets/images/86939e8608d0-0.webp",
+      "sha256": "e692efa3c7a0cc0a2940a611a94e194806a7ad8885d3082f73ee025aee36c74e",
+      "bytes": 752996,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 933,
+      "bundledBytes": 37398
+    },
+    {
+      "sourceUrl": "https://www.graniser.com.tr/images/urunler/ombra_fc703.jpg",
+      "assetPath": "assets/images/e7e0d489ab2d-0.webp",
+      "sha256": "ca698453a13519e37b7da7f06caf6c8150643796230f874bb8581edf098a724b",
+      "bytes": 1546802,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 933,
+      "bundledBytes": 99904
+    },
+    {
+      "sourceUrl": "https://www.graniser.com.tr/images/urunler/lamont_4a53f.jpg",
+      "assetPath": "assets/images/1e5322085847-0.webp",
+      "sha256": "e18732894e1b917c04ab33361de6d2f0d9bc98c4061bb29567dc02199ceca69d",
+      "bytes": 1683301,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 933,
+      "bundledBytes": 171544
+    },
+    {
+      "sourceUrl": "https://www.graniser.com.tr/images/urunler/arvada_2887f.jpg",
+      "assetPath": "assets/images/5ca32a25e6ff-0.webp",
+      "sha256": "0ea055ac200780e2fa0a871973646f4fde8dc9dad282889a6664e2e8e3209c4d",
+      "bytes": 1429265,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 933,
+      "bundledBytes": 111822
+    },
+    {
+      "sourceUrl": "https://www.graniser.com.tr/images/urunler/merano_2ee2b.jpg",
+      "assetPath": "assets/images/3717de5c74f9-0.webp",
+      "sha256": "b80ec00b13130ea6d68a7c30c3710888a8a8ead2a0bebae023e6dea27f7262df",
+      "bytes": 1577260,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 933,
+      "bundledBytes": 80548
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/img/slider/Ceramica1.jpg",
+      "assetPath": "assets/images/hero.webp",
+      "sha256": "94c19da7d5e539626ec5bb043ebdf2bbe89bdf6005c28d6e5ebf691f3459e3e9",
+      "bytes": 775444,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 788,
+      "bundledBytes": 40616
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/img/slider/Ceramica3.jpg",
+      "assetPath": "assets/images/inspiration.webp",
+      "sha256": "4e955dcd12bab662e49b0e44fcdb7cef82ebcd8d01af9be789720149852ba1a6",
+      "bytes": 1108480,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 788,
+      "bundledBytes": 62374
+    },
+    {
+      "sourceUrl": "https://ceramicabanyo.com/img/merkez.jpg",
+      "assetPath": "assets/images/showroom.webp",
+      "sha256": "9561bcd0dfa3ae967ed5f2eaf04080957ae5665664f942d1c57aae7be43027b6",
+      "bytes": 1316439,
+      "verifiedAt": "2026-10-19",
+      "width": 1400,
+      "height": 809,
+      "bundledBytes": 264318
+    }
+  ]
+}

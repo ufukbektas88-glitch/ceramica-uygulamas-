@@ -1,3 +1,5 @@
+> Tarihsel belge. Güncel ürün kapsamı için [PRODUCT_SCOPE.md](../PRODUCT_SCOPE.md), kurulum için [SHOWROOM.md](../SHOWROOM.md) geçerlidir.
+
 # Teslimat durumu
 Bu depo 19 Ekim 2026 tarihinde boş depodan yeniden oluşturuldu. Bu sürüm çalışan ticari çekirdektir; 30 başlıklı master promptun tamamı bitmiş değildir. Üretime hazır olarak işaretlenmez.
 

@@ -1,3 +1,5 @@
+> Tarihsel belge. Güncel ürün kapsamı için [PRODUCT_SCOPE.md](../PRODUCT_SCOPE.md), kurulum için [SHOWROOM.md](../SHOWROOM.md) geçerlidir.
+
 # CERAMICA mimarisi ve geliştirme sözleşmesi
 
 ## Kurtarma araştırması — 19 Ekim 2026

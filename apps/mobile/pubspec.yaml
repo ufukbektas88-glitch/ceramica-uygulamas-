@@ -1,16 +1,29 @@
 name: ceramica
-version: 0.1.0+1
+version: 0.2.0+2
 publish_to: none
 environment:
   sdk: '>=3.4.0 <4.0.0'
 dependencies:
   flutter:
     sdk: flutter
-  http: 1.3.0
-  flutter_secure_storage: 9.2.4
+  cupertino_icons: 1.0.8
+  shared_preferences: 2.5.6
+  url_launcher: 6.3.3
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: 5.0.0
 flutter:
   uses-material-design: true
+  assets:
+    - assets/catalog.json
+    - assets/images/
+    - assets/fonts/CormorantGaramond-OFL.txt
+    - assets/fonts/Manrope-OFL.txt
+  fonts:
+    - family: Manrope
+      fonts:
+        - asset: assets/fonts/Manrope.ttf
+    - family: Cormorant
+      fonts:
+        - asset: assets/fonts/CormorantGaramond.ttf

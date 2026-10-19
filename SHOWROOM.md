@@ -2,7 +2,7 @@
 
 ## Android'e kurulum
 CERAMICA-katalog.apk dosyasını telefona indirin ve açın. Gerekirse indirdiğiniz tarayıcı/dosya uygulaması için “Bu kaynaktan yüklemeye izin ver” seçin. Yükle → Aç. Giriş, sunucu adresi veya veritabanı kurulumu gerekmez.
-Önceki CERAMICA demo APK ile aynı paket kimliği ve yerel imza korunur; yeni sürüm 0.2.0 (versionCode 2) olarak yükseltilebilir. Dağıtım imzası yerel deneme anahtarıdır; Google Play üretim imzası değildir. Fiziksel cihazda kurulum ayrıca kullanıcı tarafından doğrulanmalıdır.
+Önceki CERAMICA demo APK ile aynı paket kimliği ve yerel imza korunur; yeni sürüm 0.2.1 (versionCode 3) olarak yükseltilebilir. Dağıtım imzası yerel deneme anahtarıdır; Google Play üretim imzası değildir. Fiziksel cihazda kurulum ayrıca kullanıcı tarafından doğrulanmalıdır.
 
 ## iPhone — sunucusuz native uygulama
 Aynı Flutter kodunun ios platformu hazırdır. Native uygulamanın internet/sunucu ihtiyacı yoktur; fakat iPhone'a yüklenebilmesi için Apple imzalaması gerekir.

@@ -78,6 +78,7 @@ class _CatalogLoaderState extends State<CatalogLoader> {
       future: loading,
       builder: (context, s) {
         if (s.hasError) {
+          debugPrint('CERAMICA bundled catalog: ${s.error}');
           return Scaffold(
               body: SafeArea(
                   child: Center(
@@ -89,7 +90,7 @@ class _CatalogLoaderState extends State<CatalogLoader> {
                                 style: TextStyle(fontSize: 22)),
                             const SizedBox(height: 16),
                             const Text(
-                                'Uygulama dosyaları okunamadı. Lütfen yeniden deneyin.'),
+                                'Telefondaki katalog dosyası okunamadı. Lütfen uygulamayı güncelleyip yeniden deneyin.'),
                             TextButton(
                                 onPressed: () =>
                                     setState(() => loading = store.load()),

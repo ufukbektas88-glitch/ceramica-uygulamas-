@@ -21,3 +21,6 @@ next-env.d.ts
 *.ipa
 __pycache__/
 *.pyc
+
+# Kotlin compiler local session cache
+.kotlin/

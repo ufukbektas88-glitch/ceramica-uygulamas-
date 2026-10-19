@@ -63,6 +63,38 @@ void main() {
     expect(reopened.filter(favoritesOnly: true), isEmpty);
     await expectLater(reopened.toggle('olmayan-urun'), throwsArgumentError);
   });
+  test('cihaz depolama hatası paketli kataloğun açılışını engellemez', () async {
+    var attempts = 0;
+    final store = CatalogStore(openPreferences: () async {
+      attempts++;
+      if (attempts == 1) {
+        throw PlatformException(code: 'channel-error', message: 'unavailable');
+      }
+      return SharedPreferences.getInstance();
+    });
+    await store.load();
+    expect(store.products, hasLength(66));
+    expect(store.favoritesAvailable, isFalse);
+    final id = store.products.first.id;
+    await store.toggle(id);
+    expect(store.favoritesAvailable, isTrue);
+    expect(store.favorites, contains(id));
+    final reopened = CatalogStore();
+    await reopened.load();
+    expect(reopened.favorites, contains(id));
+  });
+  test('eski kurulumdan kalan hatalı favori türü kataloğu engellemez', () async {
+    SharedPreferences.setMockInitialValues({CatalogStore.favoritesKey: 'bozuk'});
+    final store = CatalogStore();
+    await store.load();
+    expect(store.products, hasLength(66));
+    expect(store.favorites, isEmpty);
+    final id = store.products.first.id;
+    await store.toggle(id);
+    final reopened = CatalogStore();
+    await reopened.load();
+    expect(reopened.favorites, contains(id));
+  });
   test('yerel kaynakta sipariş oturum veya API istemcisi yoktur', () {
     final files = Directory('lib')
         .listSync()

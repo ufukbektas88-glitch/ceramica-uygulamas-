@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:ceramica/main.dart';
@@ -18,6 +19,25 @@ void main() {
     expect(find.byType(Photo), findsWidgets);
     expect(find.text('Siparişler'), findsNothing);
     expect(find.text('Oturum aç'), findsNothing);
+  });
+  testWidgets('favori depolama arızasında hata ekranı yerine katalog açılır',
+      (tester) async {
+    final store = CatalogStore(openPreferences: () async {
+      throw PlatformException(code: 'channel-error');
+    });
+    await tester.runAsync(store.load);
+    await tester.pumpWidget(Ceramica(store: store));
+    await tester.pumpAndSettle();
+    expect(find.text('CERAMICA'), findsOneWidget);
+    expect(find.text('Katalog açılamadı.'), findsNothing);
+    await tester.tap(find.byIcon(Icons.grid_view_outlined));
+    await tester.pumpAndSettle();
+    expect(find.byType(CollectionCard), findsWidgets);
+    await tester.tap(find.byTooltip('Favorilere ekle').first);
+    await tester.pumpAndSettle();
+    expect(find.text('Favori cihazınıza kaydedilemedi. Lütfen tekrar deneyin.'),
+        findsOneWidget);
+    expect(find.byType(CollectionCard), findsWidgets);
   });
   testWidgets('katalog araması ve yerel favori akışı çalışır', (tester) async {
     final store = CatalogStore();

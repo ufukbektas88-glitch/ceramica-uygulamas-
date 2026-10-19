@@ -47,10 +47,14 @@ class CollectionItem {
 }
 
 class CatalogStore extends ChangeNotifier {
+  CatalogStore({Future<SharedPreferences> Function()? openPreferences})
+      : _openPreferences = openPreferences ?? SharedPreferences.getInstance;
+  final Future<SharedPreferences> Function() _openPreferences;
   static const favoritesKey = 'ceramica_showroom_favorites_v1';
   late Map<String, dynamic> data;
   late List<CollectionItem> products;
-  late SharedPreferences preferences;
+  SharedPreferences? _preferences;
+  bool get favoritesAvailable => _preferences != null;
   Set<String> favorites = {};
   bool _loaded = false;
   Future<void> load() async {
@@ -60,11 +64,23 @@ class CatalogStore extends ChangeNotifier {
     products = (data['products'] as List)
         .map((i) => CollectionItem.fromJson(Map<String, dynamic>.from(i)))
         .toList();
-    preferences = await SharedPreferences.getInstance();
-    final valid = products.map((p) => p.id).toSet();
-    favorites = (preferences.getStringList(favoritesKey) ?? [])
-        .where(valid.contains)
-        .toSet();
+    // Device storage is optional: its failure must never hide bundled products.
+    try {
+      final preferences = await _openPreferences();
+      _preferences = preferences;
+      final valid = products.map((p) => p.id).toSet();
+      try {
+        favorites = (preferences.getStringList(favoritesKey) ?? [])
+            .where(valid.contains)
+            .toSet();
+      } catch (error, stack) {
+        // A wrong-typed value from a previous installation is not a catalog error.
+        debugPrint('CERAMICA favorites value: $error\n$stack');
+        favorites = {};
+      }
+    } catch (error, stack) {
+      debugPrint('CERAMICA favorites storage: $error\n$stack');
+    }
     _loaded = true;
     notifyListeners();
   }
@@ -73,6 +89,8 @@ class CatalogStore extends ChangeNotifier {
     if (!products.any((p) => p.id == id)) {
       throw ArgumentError('Koleksiyon bulunamadı');
     }
+    // Retry storage if it was temporarily unavailable during startup.
+    final preferences = _preferences ??= await _openPreferences();
     final previous = {...favorites};
     if (!favorites.add(id)) favorites.remove(id);
     notifyListeners();

@@ -1,0 +1,20 @@
+{
+  "name": "@ceramica/api",
+  "private": true,
+  "scripts": {
+    "dev": "tsc -p . && node --env-file=../../.env dist/main.js",
+    "build": "tsc -p ."
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.2.7",
+    "@nestjs/core": "^11.2.7",
+    "@nestjs/platform-express": "^11.2.7",
+    "@nestjs/swagger": "^11.4.7",
+    "@nestjs/throttler": "6.4.0",
+    "class-transformer": "0.5.1",
+    "class-validator": "0.14.2",
+    "helmet": "8.1.0",
+    "reflect-metadata": "0.2.2",
+    "rxjs": "7.8.2"
+  }
+}

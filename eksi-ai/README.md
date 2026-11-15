@@ -4,7 +4,11 @@ Gündemi izleyen, başlık başına araştırma yapan, tartışmayı analiz eden
 kaynaklı entry **taslakları** üreten kişisel içerik platformu. Taslaklar kalite kontrolünden
 geçer, panelde onayınızı bekler; yayın sizin elinizle yapılır.
 
-Mimari, Ekşi Sözlük erişim değerlendirmesi, güvenlik ve maliyet: [docs/MIMARI.md](docs/MIMARI.md).
+- Kullanım kılavuzu (ekran görüntüleriyle): [docs/KULLANIM_KILAVUZU.md](docs/KULLANIM_KILAVUZU.md)
+- Mimari, Ekşi Sözlük erişim değerlendirmesi, güvenlik ve maliyet: [docs/MIMARI.md](docs/MIMARI.md)
+
+![Entry Editörü](docs/screenshots/04-entry-editoru.png)
+*Örnek veriyle alınmış ekran görüntüsü.*
 
 ## Kurulum (sunucu)
 
